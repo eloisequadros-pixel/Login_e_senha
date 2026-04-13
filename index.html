@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css"
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Página de Login</title>
 </head>
 <body>
+    <div class="cantainer">
     <h2>Login</h2>
-    <form  id="loginForms">
+    <form id="loginForms">
         <div class="input-group">
-            <label for="username">Usuário</label>
-            <input type="text" id="username" name="username" placeholder="Digite o seu usuário">            
+           <label for="username">Usuário:</label>
+           <input type="text" id="username" name="username" placeholder="Digite seu usuário">
         </div>
         <div class="input-group">
             <label for="password">Senha:</label>
-            <input type="password" id="password" name="password" placeholder="Digite a sua senha">
-
-            <button type="submit"> Entrar</button>
-            <p id="message"></p>        
+            <input type="password" id="password" name="password" placeholder="Digite sua senha"  
+        </div>
+        <button type="submit">Entrar</button>
+        <p id="message"></p>
     </form>
     <div class="links">
         <a href="cadastro.html" id="cadastroLink">Cadastra-se</a>
-        <a href="index.html" id="indexLink">Já tem conta? Faça o Login</a>
-    </div>
+        <a href="index.html" id="indexLink">Já tem conta? Faça login</a>
+   </div>
 </div>
 <script src="script.js"></script>
 </body>
