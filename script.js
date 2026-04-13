@@ -1,4 +1,13 @@
-const form = document.getElementById{"loginform");
-const message = document.getElementById("message");
+//Pegar os elementos do HTML
+const form = document.getElementById("loginForm");
+const message = document. getElementById("message");
 
-form.addEventListener("")
+//Evento de envio do Formulário
+
+form.addEventListener("submit", function(event) {
+ event.preventDefault(); //impede o carregamento da página
+
+// Pegando os valores digitados
+
+
+}
